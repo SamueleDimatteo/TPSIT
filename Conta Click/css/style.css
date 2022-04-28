@@ -1,0 +1,53 @@
+/* Font (Fredoka One / Pacifico) */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap');
+
+/* Colore di sfondo */
+body{
+background-color: gray;
+}
+
+/* Contenitore di tutti gli elementi */
+#container{
+position: absolute;
+left: 600px;
+top: 100px;
+height: 700px;
+width: 700px;
+border: 10px solid black;
+border-radius: 30px;
+background-color: white;
+}
+
+/* Contenitore numero di click */
+.container-click{
+margin-left: 140px;
+margin-top: 50px;
+height: 100px;
+width: 400px;
+border: 10px solid black;
+border-radius: 30px;
+background-color: white;
+}
+
+/* Numero di click */
+#click{
+position: absolute;
+left: 340px;
+top: 30px;
+font-family: Pacifico;
+font-size: 80px;
+}
+
+/* Bottone */
+.btn-contaclick{
+margin-left: 205px;
+margin-top: 380px;
+height: 100px;
+width: 300px;
+border: 10px solid black;
+border-radius: 20px;
+background-color: white;
+font-family: Fredoka One;
+font-size: 50px;
+}
+

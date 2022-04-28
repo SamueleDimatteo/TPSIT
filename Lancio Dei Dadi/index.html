@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Collegamento a CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Titolo -->
+        <title>Lancio dei dadi</title>
+
+    </head>
+
+    <body>
+        
+        <!-- Contenitore (BTN / Titolo / Regolo 1-2) -->
+        <div class="container-btn">
+
+            <!-- Un semplice titolo fatto con un div -->
+            <div class="titolo">Tenta la fortuna anche tu!</div>
+
+            <!-- Una semplice regola fatta con un div -->
+            <div class="regola1">• 2 numeri uguali = Hai Vinto :)</div>
+
+            <!-- Una semplice regola fatta con un div -->
+            <div class="regola2">• 2 numeri differenti = Hai perso :(</div>
+
+            <!-- Un bottone con la funzione (onclick="tiraidadi") -->
+            <button class="btn-lanciaidadi" type="button" onclick="tiraidadi()">Tira i dadi</button>
+
+        </div>
+    
+        <!-- Contenitore (Img dadi / Risultati numerici / Vittoria-Sconfitta / Relod) -->
+        <div id="container-risulato">
+
+            <!-- Contenitore di un immagine che appare tramite js -->
+            <div id="risultato"></div>
+
+            <!-- Risultato numerico -->
+            <div id="scrittarisultato"></div>
+
+            <!-- Contenitore di un immagine che appare tramite js -->
+            <div id="risultato2"></div>
+
+            <!-- Risultato numerico -->
+            <div id="scrittarisultato2"></div>
+
+            <!-- Ti dice se hai perso oppure hai vinto -->
+            <div id="vittoria-sconfitta"></div>
+
+            <!-- Un semplice testo fatto con un div -->
+            <div id="f5"></div>
+
+        </div>
+
+        <!-- Collegamento a js -->
+        <script src="js/script.js"></script>
+
+    </body>
+    
+</html>

@@ -1,0 +1,108 @@
+/* Font (Kanit) */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+/* Colore di sfondo */
+body{
+background-color: grey;
+}
+
+/* Contenitore Bottone */
+.container-btn{
+position: absolute;
+left: 300px;
+top: 200px;
+height: 350px;
+width: 350px;
+background-color: orange;
+border: 10px solid black;
+border-radius: 30px;
+}
+
+/* Titolo (Tenta la fortuna anche tu!)*/
+.titolo{
+text-align: center;
+font-family: Kanit;
+font-size: 20px;
+}
+
+/* Regola 1  */
+.regola1{
+margin-left: 10px;
+margin-top: 30px;
+font-family: Kanit;
+}
+
+/* Regola 2 */
+.regola2{
+margin-left: 10px;
+margin-top: 15px;
+font-family: Kanit;
+}
+
+/* Bottone lancio dadi */
+.btn-lanciaidadi{
+margin-left: 25px;
+margin-top: 85px;    
+height: 100px;
+width: 300px;
+border-radius: 30px;
+font-family: Kanit;
+font-size: 40px;
+}
+
+/* Contenitore risultati */
+#container-risulato{
+position: absolute;
+left: 1100px;
+top: 80px;
+height: 650px;
+width: 650px;
+border: 10px solid black;
+border-radius: 30px;
+}
+
+/* Img dado 1 */
+#risultato{
+position: absolute;
+left: 50px;
+top: 40px;
+}
+
+/* Risultato scritto 1 */
+#scrittarisultato{
+margin-left: 70px;
+margin-top: 350px;
+font-family: Kanit;
+font-size: 25px;
+}
+
+/* Img dado 2 */
+#risultato2{
+position: absolute;
+left: 350px;
+top: 40px;
+}
+
+/* Risultato scritto 1 */
+#scrittarisultato2{
+margin-left: 370px;
+margin-top: -37px;
+font-family: Kanit;
+font-size: 25px;
+}
+
+/* Vittoria - Sconfitta */
+#vittoria-sconfitta{
+margin-left: 190px;
+margin-top: 90px;
+font-family: Kanit;
+font-size: 50px;
+}
+
+/* Testo del relod (Per rilanciare i dadi premi F5) */
+#f5{
+margin-left: 130px;
+margin-top: 40px;
+font-family: Kanit;
+font-size: 30px;
+}

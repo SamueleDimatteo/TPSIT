@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <html lang="it-IT">
+        <head>
+	        <meta charset="UTF-8" />
+            <meta name="Description" content="Tabelle, tabella, Tabella con intestazione" />
+            <meta name="keywords" content="tabella, intestazione, colspan, rowspan" />
+            <meta name="generator" content="Visual Studio Code" />
+	        <meta name="author" content="Samuele Dimatteo" />
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <!-- * Titolo Pagina Web -->
+		    <title>Tabelle 2</title>
+
+            <!-- * CSS Dentro HTML -->
+	        <style>
+
+		        body{
+			    font-family: Verdana, Arial, sans-serif;
+			    background-color: lightcyan;
+			    color: blue;
+		        }
+
+		        table, th{
+			    border: 2px solid blue;
+			    padding: 10px;
+		        }
+
+		        td{
+			    border: 2px solid blue;
+			    padding : 8px;
+		        }
+
+	        </style>
+
+        </head>
+
+        <body>
+
+            <!-- * Titolo Prima Tabella -->
+	        <h2>Tabella anagrafica (titolo h2)</h2>
+
+                <!-- * Inizio Tabella Con Tutti I Suoi Vari Elementi Dentro -->
+	            <table> 
+
+                    <!-- * Prima Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr> 
+			            <th>Cognome</th> <th>Nome</th> <th>Indirizzo</th> <th>città</th> <th>patente</th>
+		            </tr>	
+
+                    <!-- * Seconda Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr>
+		                <td>Macchiavelli</td> <td>Pasquale</td> <td>Via XXV Aprile, 181</td> <td>Nichelino (TO)</td> <td>Patente A/B</td>
+		            </tr>
+
+                    <!-- * Terza Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr>
+		                <td>Agnelli</td> <td>Andrea</td> <td>C.so Unione Sovietica, 20</td> <td>Torino (TO)</td> <td>Patente B</td>
+		            </tr>
+
+                    <!-- * Quarta Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr>
+		                <td>Bianchini</td> <td>Elisa</td> <td>Via Torino, 18</td> <td>Nichelino (TO)</td> <td>Patente A</td>
+		            </tr>
+
+                    <!-- * Quinta Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr>
+		                <td>Abbatista</td> <td>Vittoria</td> <td>Via Cuneo, 11</td> <td>Moncalieri (TO)</td> <td>Patente B</td>
+		            </tr>
+
+                    <!-- * Sesta Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr>
+		                <td>Forte</td> <td>Loredana</td> <td>Via Amendola, 10</td> <td>Nichelino (TO)</td> <td>Patente B</td>
+		            </tr>
+                
+                    <!-- * Settima Riga Della Prima Tabella Con Tutti Le Sue Scritte -->
+		            <tr>
+		                <td>Zanellati</td> <td>Paolo</td> <td>Via Cacciatori, 181</td> <td>Nichelino (TO)</td> <td>Patente B</td>
+		            </tr>	
+
+	            </table>
+
+
+            <!-- * Titolo Prima Tabella -->
+	        <h2>Tabella equivalente</h2>
+
+            <!-- * Inizio Tabella Con Tutti I Suoi Vari Elementi Dentro -->
+            <table> 
+
+                <!-- * Prima Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr> 
+                    <th>Cognome</th> <th>Nome</th> <th>Indirizzo</th> <th>città</th> <th>patente</th>
+                </tr>	
+
+                <!-- * Seconda Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr>
+                    <td>Macchiavelli</td> <td>Pasquale</td> <td>Via XXV Aprile, 181</td> <td>Nichelino (TO)</td> <td>Patente A/B</td>
+                </tr>
+
+                <!-- * Terza Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr>
+                    <td>Agnelli</td> <td>Andrea</td> <td>C.so Unione Sovietica, 20</td> <td>Torino (TO)</td> <td>Patente B</td>
+                </tr>
+
+                <!-- * Quarta Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr>
+                    <td>Bianchini</td> <td>Elisa</td> <td>Via Torino, 18</td> <td>Nichelino (TO)</td> <td>Patente A</td>
+                </tr>
+
+                <!-- * Quinta Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr>
+                    <td>Abbatista</td> <td>Vittoria</td> <td>Via Cuneo, 11</td> <td>Moncalieri (TO)</td> <td rowspan="3">Patente B</td>
+                </tr>
+
+                <!-- * Sesta Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr>
+                    <td>Forte</td> <td>Loredana</td> <td>Via Amendola, 10</td> <td rowspan="2">Nichelino (TO)</td>
+                </tr>
+            
+                <!-- * Settima Riga Della Seconda Tabella Con Tutti Le Sue Scritte -->
+                <tr>
+                    <td>Zanellati</td> <td>Paolo</td> <td>Via Cacciatori, 181</td>
+                </tr>	
+
+            </table>
+
+        </body>
+
+    </html>		

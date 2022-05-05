@@ -1,0 +1,25 @@
+body{
+background-color: #e0ffff;
+font-family: Verdana, Arial, sans-serif;
+}
+
+.titolo{
+color: blue;
+}
+
+table{
+border: 3px solid black;
+color: blue;
+padding: 10px;
+}
+
+th{
+border: 3px solid black;
+text-align: center;
+padding: 10px;
+}
+
+td{
+border: 2px solid red;
+padding: 5px;
+}

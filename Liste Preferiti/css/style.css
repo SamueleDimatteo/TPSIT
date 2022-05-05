@@ -1,0 +1,65 @@
+/* *Importazione Dei Font (Roboto Mono / Lobster / Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@500&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+/* *Toglie La Barra Dei Link */
+a{
+text-decoration: none;
+}
+
+/* *Titolo */
+.title{
+color: rgb(219, 157, 22);
+font-family: Roboto Mono, monospace;
+}
+
+/* *Sottotitolo */
+.subtitle{
+color: rgb(219, 223, 17);
+font-family: 'Oswald', sans-serif;
+}
+
+/* *Titolo Delle Liste */
+.titlelist{
+font-family: Roboto Mono, monospace;
+}
+
+/* *Autori Delle Liste */
+.author{
+font-family: 'Lobster', cursive;
+}
+
+/* *Colore Delle Song */
+.listsong{
+color: rgb(105, 49, 235);
+}
+
+/* *Colore Testo Song */
+.textlistsong{
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+color: rgb(105, 49, 235);
+}
+
+/* *Colore Dei Film */
+.listfilm{
+color: rgb(255, 0, 0);
+}
+
+/* *Colore Testo Film */
+.textlistfilm{
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+color: rgb(255, 0, 0);
+}
+
+/* *Colore Dei Manga */
+.listmanga{
+color: rgb(33, 165, 33);
+}
+
+/* *Colore Testo Manga */
+.textlistmanga{
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+color: rgb(33, 165, 33);
+}

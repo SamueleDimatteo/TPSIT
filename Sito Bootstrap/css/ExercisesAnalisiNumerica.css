@@ -1,0 +1,38 @@
+/* * Font (Koulen, cursive / Oswald, sans-serif) */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@500&display=swap');
+
+body{
+background-color: rgba(128, 0, 128, 0.75);
+}
+
+.title-exanalisinumerica{
+font-family: 'Oswald', sans-serif;
+font-size: 50px;
+color: black;
+}
+
+.container-btn{
+margin-top: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn-analisinumerica1{
+border: 3px solid black;
+border-radius: 15px;
+height: 80px;
+width: 350px;
+font-family: 'Koulen', cursive ;
+font-size: 20px;
+}
+
+.btn-analisinumerica2{
+margin-top: 50px;
+border: 3px solid black;
+border-radius: 15px;
+height: 80px;
+width: 350px;
+font-family: 'Koulen', cursive ;
+font-size: 20px;
+}

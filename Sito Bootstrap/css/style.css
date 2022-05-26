@@ -1,0 +1,46 @@
+/* * Font (Koulen, cursive / Oswald, sans-serif) */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@500&display=swap');
+
+body{
+background-color: #333333;
+}
+
+.nome-nav{
+margin-left: 18px;
+color: white;
+font-size: 25px;
+font-family: 'Koulen', cursive;
+}
+
+.title-home{
+color: white;
+font-family: 'Oswald', sans-serif;
+}
+
+.sub-title-home{
+color: white;
+font-family: 'Oswald', sans-serif;
+}
+
+.btn-github{
+font-family: 'Oswald', sans-serif;
+color: white;
+}
+
+.btn-blog{
+font-family: 'Oswald', sans-serif;
+color: white;
+}
+
+.col-sm{
+padding: 13px;
+}
+
+.box-title{
+font-family: 'Koulen', cursive;
+}
+
+.box-text{
+font-family: 'Oswald', sans-serif;
+font-size: 19px;
+}
